@@ -1,7 +1,9 @@
 import React from "react";
 
 import List from "./List";
-import NewUserForm from "./NewUserForm";
+// import NewUserForm from "./NewUserForm";
+
+import NewUserFormFormik from "./NewUserFormFormik";
 import FilterForm from "./FilterForm";
 
 function Users() {
@@ -9,7 +11,7 @@ function Users() {
 		<div style={{ paddingTop: 20 }}>
 			<FilterForm />
 			<List />
-			<NewUserForm />
+			<NewUserFormFormik />
 		</div>
 	);
 }
